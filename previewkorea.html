@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,900;1,700;1,900&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/c26cd2166c.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="user.css" />
+
+    <title>FoodHunters - Preview</title>
+  </head>
+  <body>
+    <div class="navro">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="login.html">FoodHunters</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="beranda.html">Beranda</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="cobaTrending.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Trending </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="spain.html">Spain</a></li>
+                  <li><a class="dropdown-item" href="korea.html">Korea</a></li>
+                  <li><a class="dropdown-item" href="japan.html">Japan</a></li>
+                  <li><a class="dropdown-item" href="amerika.html">Amerika</a></li>
+                  <li><a class="dropdown-item" href="belanda.html">Belanda</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li><a class="dropdown-item" href="tranding.html">Menu Trending </a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Traditional </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="jakarta.html">Jakarta</a></li>
+                  <li><a class="dropdown-item" href="jabar.html">Jawa Barat</a></li>
+                  <li><a class="dropdown-item" href="jatim.html">Jawa Timur</a></li>
+                  <li><a class="dropdown-item" href="sumatra.html">Sumatra</a></li>
+                  <li><a class="dropdown-item" href="bali.html">Bali</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li><a class="dropdown-item" href="traditional.html">Back to Menu </a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Organic </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="snack.html">Snack</a></li>
+                  <li><a class="dropdown-item" href="fruit.html">Fruit</a></li>
+                  <li><a class="dropdown-item" href="vegetable.html">Vegetable</a></li>
+                  <li><a class="dropdown-item" href="icecream.html">Ice Cream</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li><a class="dropdown-item" href="organic.html">Organic Menu</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="explore.html">explore</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Saran</a>
+              </li>
+              <form class="d-flex col-lg-3">
+                <input class="px-3 search" type="search" placeholder="Search" aria-label="Search" />
+                <button class="btn0" type="submit" href="login.html">Search</button>
+              </form>
+            </ul>
+            <div class="action">
+              <div class="profile" onclick="menuToggle()">
+                <img src="img/sunda.jpg" alt="" width="90" height="90" />
+              </div>
+              <div class="menu">
+                <h3>User FoodHunters <br /><span> Bali, Indonesia</span></h3>
+                <ul>
+                  <li><img src="img/user-1.png" alt="" width="50" height="20" /><a href="HTML Part Acoount/Account.html">My Profile</a></li>
+                  <li><img src="img/edit.png" alt="" width="50" height="20" /><a href="HTML Part Acoount/Edit Profile.html">Edit Profile</a></li>
+                  <li><img src="img/inbox.png" alt="" width="50" height="20" /><a href="#">Inbox</a></li>
+                  <li><img src="img/settings.png" alt="" width="50" height="20" /><a href="HTML Part Acoount/Setting.html">Settings</a></li>
+                  <li><img src="img/question.png" alt="" width="50" height="20" /><a href="HTML Part Acoount/Help.html">Help</a></li>
+                  <li><img src="img/question.png" alt="" width="50" height="20" /><a href="HTML Part Acoount/AboutUs.html">About Us</a></li>
+                  <li><img src="img/log-out.png" alt="" width="50" height="20" /><a href="login.html">Log-Out</a></li>
+                </ul>
+              </div>
+            </div>
+            <script>
+              function menuToggle() {
+                const toggleMenu = document.querySelector('.menu');
+                toggleMenu.classList.toggle('active');
+              }
+            </script>
+          </div>
+        </div>
+      </nav>
+      <!-- Navbar -->
+
+      <main>
+        <section class="case-vid">
+            <div class="wrapper">
+                <div class="mt-4 text-center">
+                    <h2>Bibimbap</h2>
+                    <h6 style="color: rgb(158, 158, 158)">Korea</h6>
+                    <div class="gallery">
+                        <a href="img/bibimbap1.webp"><img src="img/bibimbap1.webp" style="width: 250px; height: 180px;" ></a>
+                        <a href="img/bibimbap.webp"><img src="img/bibimbap.webp" style="width: 250px; height: 181px;" ></a>
+
+                    </div>
+                </div>
+
+                <article>
+                    <h3 class="mt-5"> Bibimbap </h3>
+                    <div>
+                        <p> ibimbap adalah masakan Korea berupa semangkuk nasi putih dengan lauk di atasnya berupa sayur-sayuran, daging sapi, telur, dan saus pedas gochujang.</p>
+                    </div>
+                    <h3 class="mt-5"> Resep </h3>
+                </article>
+                <div class="accordion" id="accordionExample">
+                  <div class="accordion-item mb-5">
+                    <h2 class="accordion-header" id="headingTwo">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Lihat Resep
+                      </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <h3 class="text-center mt-2">Cara Membuat Bimbimbap</h3>
+                        <div class="mt-1 text-center">
+                          <div class="gallery">
+                              <a href="img/bibimbap1.webp"><img src="img/bibimbap1.webp" style="width: 50%;" ></a>
+                          </div>
+                        <div style="text-align:left;">
+                          <p>Bibimbap atau nasi campur khas Korea yang kaya gizi dan sangat mudah untuk dibuat ini bisa kamu jadikan variasi menu di rumah. Sesuaikan saja bahan isiannya dengan persediaan yang ada di kulkas/dapur!</p>
+                          <h2>Bahan :</h2>
+                          <ul>
+                            <li>Beras - 1 gelas</li>
+                            <li>Telur - 3 butir</li>
+                            <li>Timun jepang, buang biji lalu potong korek api panjang - 1 buah</li>
+                            <li>Wortel, potong korek api panjang - 2 buah</li>
+                            <li>Tauge - 50 gram</li>
+                            <li>Bayam, siangi - 2 ikat</li>
+                            <li>Jamur enoki, potong bagian akarnya - 100 gram</li>
+                            <li>Jamur champignon, iris tipis - 5 buah</li>
+                            <li>Minyak wijen - 4 sdt</li>
+                            <li>Margarin - 1 sdm</li>
+                            <li>Garam - secukupnya</li>
+                          </ul>
+                          <h2>Tumisan Daging :</h2>
+                          <ul>
+                            <li>Daging iga, iris panjang tipis - 100 gram</li>
+                            <li>Saus tiram - 1,5 sdm</li>
+                            <li>Minyak wijen - 1 sdm</li>
+                            <li>Kecap - 1 sdm</li>
+                            <li>Merica - 1/2 sdt</li>
+                            <li>Minyak, untuk menumis - 2 sdm</li>
+                          </ul>
+                          <h2>Saus :</h2>
+                          <ul>
+                              <li>Gochujang (saus sambal khas korea) - 1 sdm</li>
+                              <li> Minyak wijen - 1 sdt</li>
+                              <li>Gula palem - 1 sdt</li>
+                              <li>Cuka - 1 sdt</li>
+                              <li>Air matang - 1 sdm</li>
+                          </ul>
+                       
+                          <h2><strong style="color: rgb(72, 167, 255);">Cara membuat :</strong></h2>
+                          <ol>
+                            <li>Masak beras seperti biasa hingga menjadi nasi. Sisihkan. </li>
+                            <li>Goreng telur jadi mata sapi. Angkat lalu sisihkan.</li>
+                            <li>Remas-remas timun jepang/kyuri dengan sejumput garam hingga layu. Sisihkan.</li>
+                            <li>Blansir masing-masing: (celupkan sebentar dalam air mendidih) wortel, tauge, bayam, dan jamur enoki, kemudian angkat dan tiriskan. Masing-masing kemudian dicampur dengan 1 sdt minyak wijen dan sejumput garam. Aduk rata lalu sisihkan.</li>
+                            <li>Tumis irisan jamur champignon dengan 1 sdm margarin hingga wangi dan kecoklatan. Angkat lalu sisihkan.</li>
+                            <li><strong>Tumisan Daging:</strong> Panaskan minyak. Masukkan daging lalu tumis hingga sari-sari dagingnya keluar dan matang. Angkat lalu tiriskan.</li>
+                            <li><strong>Saus:</strong> Dalam wadah, campur semua bahan saus hingga rata.</li>
+                            <li><strong>Penyajian:</strong> Siapkan mangkuk saji. Masukkan nasi secukupnya. Susun melingkar aneka sayuran dan tumisan daging. Taruh telur goreng mata sapi di tengah mangkuk. Beri saus sesuai selera. Sebelum disantap, aduk seluruhnya hingga tercampur rata.</li>
+                            <li></li>
+                            <li></li>
+                          </ol>
+                          <h3>*Tips</h3>
+                          <ol>
+                              <li>Bibimbap adalah sajian khas Korea yang berarti nasi campur dengan tumis daging dan aneka sayuran. Oleh karena itu, topping atau aneka campurannya bisa disesuaikan selera dan persediaan yang ada di dapur.</li>
+                              <li>Agar warna sayuran tetap cantik, blansir/rebus sayuran sebentar saja hingga warnanya berubah jadi terang. Setelah itu, segera tiriskan dan disiram dengan air dingin untuk menghentikan proses pemasakannya.</li>
+                              <li>Cuka untuk saus bibimbap bisa diganti dengan air perasan jeruk nipis.</li>
+                              <li>Untuk memudahkan Anda memotong sayuran mengiris dan mengiris daging, gunakan pisau berbahan stainless steel, seperti GM Bear Set Pisau Dapur isi 5pcs (Lihat di Lazada DISKON) dengan berbagai jenis set yang bisa Anda gunakan sesuai kebutuhan.</li>
+                              <li></li>
+                          </ol>
+                        </div>
+                      </div>
+                      <div class="mb-3 form-check">
+                        <h5> *Check List Jika Masakan Anda Berhasil</h5>
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Berhasil</label>
+                      </div>
+                      <button type="submit" class="btn btn-primary">Oke</button>
+                    </body>
+                    </html>
+                      </div>
+                    </div>
+                  </div>
+         </section>
+    </main>
+
+
+      <!-- Footer -->
+      <section class="news py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-9 m-auto text-center text-dark">
+              <h1>Join Our Secret Society</h1>
+              <input type="text" class="px-3" placeholder="enter your email" />
+              <button class="btn2">submit</button>
+            </div>
+          </div>
+          <div class="row pt-5">
+            <div class="col-lg-11">
+              <div class="row">
+                <div class="col-lg-3 text-dark">
+                  <h5 class="pb-3">CUSTOMER CARE</h5>
+                  <p>Regular</p>
+                  <p>On Time</p>
+                  <p>Always Care</p>
+                </div>
+                <div class="col-lg-3 text-dark">
+                  <h5 class="pb-3">CUSTOMER CARE</h5>
+                  <p>Regular</p>
+                  <p>On Time</p>
+                  <p>Always Care</p>
+                </div>
+                <div class="col-lg-3 text-dark">
+                  <h5 class="pb-3">CUSTOMER CARE</h5>
+                  <p>Regular</p>
+                  <p>On Time</p>
+                  <p>Always Care</p>
+                </div>
+                <div class="col-lg-3 text-dark">
+                  <h5 class="pb-3">CUSTOMER CARE</h5>
+                  <span><i class="fab fa-facebook"></i></span>
+                  <span><i class="fab fa-instagram"></i></span>
+                  <span><i class="fab fa-twitter"></i></span>
+                  <span><i class="fab fa-google-plus"></i></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr class="text-dark" />
+          <p class="text-center text-dark">Copyright ©2021 All right reserved | This template is made with by Faryzen</p>
+        </div>
+      </section>
+      <!-- Akhir Footer -->
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
